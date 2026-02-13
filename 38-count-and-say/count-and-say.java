@@ -24,7 +24,7 @@ class Solution {
                 }
             }
 
-            // last group
+            // last group which isn't handled so used sblen-1 which is last char that hasnot handled and we appended it
             nextsb.append(count).append(sb.charAt(sblen - 1));
 
             sb = nextsb;
