@@ -18,7 +18,7 @@ class Solution {
         int min = Integer.MAX_VALUE;
         int index = 0;
 
-        for (int i = 0; i <= n; i++) {
+        for (int i = 0; i <=n; i++) {
 
             int penalty = pref[i] + pensup;
 
