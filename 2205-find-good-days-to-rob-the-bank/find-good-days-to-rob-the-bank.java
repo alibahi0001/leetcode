@@ -12,9 +12,9 @@ class Solution {
             }
             return result;
         }
-
-        int[] nonInc = new int[n]; // Stores count of consecutive non-increasing days BEFORE index i
-        int[] nonDec = new int[n]; // Stores count of consecutive non-decreasing days AFTER index i
+        //streak calculating arrays
+        int[] nonInc = new int[n]; // Stores count of consecutive non-increasing days BEFORE index i ante i vakarku decrese avvukuntu ravali so noninceresing
+        int[] nonDec = new int[n]; // Stores count of consecutive non-decreasing days AFTER index i ante i tarvata nundi increse avvukuntu povali so nondecresing 
 
         // ---------------- LEFT SIDE ----------------
         // We need at least 'time' non-increasing days before day i
